@@ -53,22 +53,22 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "IcarusBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupVolume: 35, // 0-100
         startupEmoji: false, // true or false
         maximumAfk: 120,
         afkRemoval: true,
-        maximumDc: 60,
-        bouncerPlus: true,
+        maximumDc: 15,
+        bouncerPlus: false,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
+        voteSkip: true,
         voteSkipLimit: 10,
         timeGuard: true,
         maximumSongLength: 10,
@@ -87,8 +87,8 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
-        motdInterval: 20,
+        motdEnabled: true,
+        motdInterval: 15,
         motd: "Welcome to the Official Creative Fun Plug.Dj! Please be sure to read our rules in the description, and enjoy your stay!",
         filterChat: true,
         etaRestriction: false,
