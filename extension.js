@@ -56,7 +56,7 @@
         botName: "IcarusBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
+        startupCap: 100, // 1-200
         startupVolume: 35, // 0-100
         startupEmoji: false, // true or false
         maximumAfk: 120,
