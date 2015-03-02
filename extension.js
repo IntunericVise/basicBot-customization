@@ -90,7 +90,7 @@
         motdEnabled: true,
         motdInterval: 15,
         motd: "Welcome to the Official Creative Fun Plug.Dj! Please be sure to read our rules in the description, and enjoy your stay!",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
